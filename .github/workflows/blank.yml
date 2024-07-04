@@ -22,8 +22,8 @@ jobs:
 
     steps:
       - run: |
-        sudo rm -rf /usr/share/dotnet
-        sudo rm -rf /opt/ghc
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /opt/ghc
 
       - uses: Jimver/cuda-toolkit@v0.2.16
         id: cuda-toolkit
